@@ -6,8 +6,6 @@
 #
 # $ AOSP_VOL=$PWD/build ./build-marshmallow.sh
 #
-set -ex
-
 cpus=$(grep ^processor /proc/cpuinfo | wc -l)
 
 repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-6.0.1_r81
